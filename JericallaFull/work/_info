@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/usuario/ivan_modelsim
+vALU
+Z0 !s110 1741798236
+!i10b 1
+!s100 fm8Y:A5h<fNRleQPN]i;_2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ig][3GXIccQILNYRjAG;al3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/usuario/Documents/Djce
+Z4 w1741798216
+Z5 8C:/Users/usuario/Documents/Djce/Jericalla.v
+Z6 FC:/Users/usuario/Documents/Djce/Jericalla.v
+!i122 32
+L0 55 24
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1741798236.000000
+Z9 !s107 C:/Users/usuario/Documents/Djce/Jericalla.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Documents/Djce/Jericalla.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vJericalla
+R0
+!i10b 1
+!s100 g?C=7ZR;HOgJKVX?2A^2a0
+R1
+ITiB8YjOAXdXEB8[l[4D>]3
+R2
+R3
+R4
+R5
+R6
+!i122 32
+L0 2 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@jericalla
+vJericTB
+!s110 1741798371
+!i10b 1
+!s100 PKF`mY9EHP=]5<oal<NMi1
+R1
+IREBTHSZKlK;<JYXCCGzOE0
+R2
+R3
+w1741798363
+8C:/Users/usuario/Documents/Djce/JericallaTB.v
+FC:/Users/usuario/Documents/Djce/JericallaTB.v
+!i122 33
+L0 2 24
+R7
+r1
+!s85 0
+31
+!s108 1741798371.000000
+!s107 C:/Users/usuario/Documents/Djce/JericallaTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Documents/Djce/JericallaTB.v|
+!i113 1
+R11
+R12
+n@jeric@t@b
+vRAM
+R0
+!i10b 1
+!s100 <_3JO1kb=jkZI;k?n4T7F1
+R1
+IYE3ba2AzTN?N2k<aBlB;N0
+R2
+R3
+R4
+R5
+R6
+!i122 32
+L0 36 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@r@a@m
+vROM
+R0
+!i10b 1
+!s100 kPkTDc1J[3GiUCZ_ZzNL_0
+R1
+IJ50FC?5ECl8g;YZgQ6@z31
+R2
+R3
+R4
+R5
+R6
+!i122 32
+L0 16 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@r@o@m
