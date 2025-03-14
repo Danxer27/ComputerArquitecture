@@ -1,2 +1,4 @@
 # ComputerArquitecture
-Arquitectura de Computadoras
+## Arquitectura de Computadoras
+### Daniel Corona
+
