@@ -1,1 +1,44 @@
+las instrucciones se almacenan en direcciones múltiplos de 4
 
+
+
+module PC (
+    input clk,
+    input [31:0] dirIn,
+    output [31:0] reg dirOut
+)
+
+always @(posedge clk) begin
+    dirOut <= dirIn;s
+end
+endmodule
+//Direccionaor
+module Alud(
+    input [31:0] dir,
+    output [31:0] dirOut 
+)
+
+always @(*) begin
+    dirOut = dir * 4;
+end
+endmodule
+
+//Memoria
+module Memory(
+    input WEn, REn,
+    input [31:0] dataIn, 
+    input [31:0] dir,
+    output reg [31:0] dataOut
+);
+
+reg [31:0] mem [0:1023];
+
+always @ (*) begin
+    if(WEn) begin
+        mem[dir] = dataIn;
+    end
+    if(REn) begin
+        dataOut = mem[dir];
+    end
+end
+endmodule
