@@ -1,0 +1,44 @@
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchTB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchTB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchCicle.v failed with 2 errors.
+# Compile of FetchTB.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchTB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchCicle.v was successful.
+vsim work.FetcTB
+# vsim work.FetcTB 
+# Start time: 10:46:00 on Apr 02,2025
+# Loading work.FetcTB
+# Loading work.FetchCicle
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (17) for port 'instruction'. The port definition is at: C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /FetcTB/FetchCic File: C:/Users/usuario/Documents/djce/MIPS/FetchTB.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'insOut'. The port definition is at: C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /FetcTB/FetchCic File: C:/Users/usuario/Documents/djce/MIPS/FetchTB.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dataOut'. The port definition is at: C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v(44).
+#    Time: 0 ps  Iteration: 0  Instance: /FetcTB/FetchCic/mem File: C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v Line: 14
+add wave -position end  sim:/FetcTB/instruccion
+add wave -position end  sim:/FetcTB/Clk
+add wave -position end  sim:/FetcTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/usuario/Documents/djce/MIPS/FetchTB.v(25)
+#    Time: 120 ns  Iteration: 0  Instance: /FetcTB
+# Break in Module FetcTB at C:/Users/usuario/Documents/djce/MIPS/FetchTB.v line 25
+# Compile of FetchCicle.v failed with 1 errors.
+# Compile of FetchTB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# End time: 10:53:09 on Apr 02,2025, Elapsed time: 0:07:09
+# Errors: 0, Warnings: 24

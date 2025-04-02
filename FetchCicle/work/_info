@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/usuario/Desktop/arquiEJ
+vAlud
+Z0 !s110 1743612591
+!i10b 1
+!s100 WDemHi[D6C0dd?gb6[]GH0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZd]gaMh6:Ik[F:?XGPTSK1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/usuario/Documents/djce/MIPS
+Z4 w1743612584
+Z5 8C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v
+Z6 FC:/Users/usuario/Documents/djce/MIPS/FetchCicle.v
+!i122 12
+L0 33 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1743612591.000000
+Z9 !s107 C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@alud
+vFetchCicle
+R0
+!i10b 1
+!s100 2KNHikVhXNeDP?n7c<B8c0
+R1
+IoeNWP88`bJ@RGg6=G8Y_G2
+R2
+R3
+R4
+R5
+R6
+!i122 12
+L0 3 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@fetch@cicle
+vFetcTB
+R0
+!i10b 1
+!s100 5?_=JU>m[J5RDH@UL:z@i0
+R1
+Ib=:i4cXYg<ON_GU5iQhAG2
+R2
+R3
+w1743612437
+8C:\Users\usuario\Documents\djce\MIPS\FetchTB.v
+FC:\Users\usuario\Documents\djce\MIPS\FetchTB.v
+!i122 13
+L0 3 24
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:\Users\usuario\Documents\djce\MIPS\FetchTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\usuario\Documents\djce\MIPS\FetchTB.v|
+!i113 1
+R11
+R12
+n@fetc@t@b
+vMemory
+R0
+!i10b 1
+!s100 aaDeVaR^4W<PN_BSHUiZc0
+R1
+I5FI4nO11Tm_YLK<:K`oS01
+R2
+R3
+R4
+R5
+R6
+!i122 12
+L0 44 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@memory
+vPC
+!s110 1743612355
+!i10b 1
+!s100 RXP^Vi1<_TMk;ij^afXVE1
+R1
+IN]1GPP`f3eDGB_UeX74<O1
+R2
+R3
+w1743612352
+R5
+R6
+!i122 11
+L0 20 10
+R7
+r1
+!s85 0
+31
+!s108 1743612355.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@p@c

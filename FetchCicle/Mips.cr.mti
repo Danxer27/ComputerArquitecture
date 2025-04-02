@@ -1,0 +1,16 @@
+C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v {0 {vlog -work work -stats=none C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FetchCicle
+-- Compiling module PC
+** Error: C:/Users/usuario/Documents/djce/MIPS/FetchCicle.v(26): (vlog-2110) Illegal reference to net "dirIn".
+-- Compiling module Alud
+-- Compiling module Memory
+
+} {5.0 6.0} {}} C:/Users/usuario/Documents/djce/MIPS/FetchTB.v {1 {vlog -work work -stats=none {C:\Users\usuario\Documents\djce\MIPS\FetchTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FetcTB
+
+Top level modules:
+	FetcTB
+
+} {} {}}
