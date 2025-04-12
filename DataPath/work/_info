@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f MIXED_VERSIONS
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,195 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
+vALU
+Z0 !s110 1744434481
+!i10b 1
+!s100 c?n_J`zV0DX<CgCb0Vn6J2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAFC;KO@mCg]<;CWYc>h:_1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath
+Z4 w1744434477
+Z5 8C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v
+Z6 FC:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v
+!i122 1
+L0 215 23
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1744434480.000000
+Z9 !s107 C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@a@l@u
+vAlu_Control
+R0
+!i10b 1
+!s100 >WDKQ<[QioV7nN31XHlU13
+R1
+IIF;Q`em6o4H]j:o:ORJO31
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 132 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@alu_@control
+vBancRegister
+R0
+!i10b 1
+!s100 cGM@ZP>nbCY;Ym@d:Kllo1
+R1
+IzIjZ>eekYMoV:6oGOfjU30
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 157 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@banc@register
+vController
+R0
+!i10b 1
+!s100 WkVhCfcU`2PKcB6eIb]XF2
+R1
+IS^oFVFd9cDJF[:lCeJVA]1
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 78 52
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@controller
+vDataPath
+R0
+!i10b 1
+!s100 zMjg^0?5l48d0iQlJCkn^1
+R1
+I3oQ4YIV^fE552VDi;F5M?3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 4 72
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@data@path
+vDataPathTB
+!s110 1744435404
+!i10b 1
+!s100 dBP>E4i4=Al`]ma[Q@5LS2
+R1
+I6_e=0=Mk4kRY===l_GCSZ2
+R2
+R3
+w1744435331
+8C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v
+FC:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v
+!i122 5
+L0 3 27
+R7
+r1
+!s85 0
+31
+!s108 1744435404.000000
+!s107 C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v|
+!i113 1
+R11
+R12
+n@data@path@t@b
+vDemuxo
+R0
+!i10b 1
+!s100 ]lLM5M5aPYOnG4b4bU1b]3
+R1
+I_;6R<M>1W7A;>4mjzn]kZ3
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 180 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@demuxo
+vMemoryData
+R0
+!i10b 1
+!s100 YGIlgYGP0M?JnGjjABmg90
+R1
+I41QVCKW>[`i:H?UlDj2g?0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 195 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@memory@data

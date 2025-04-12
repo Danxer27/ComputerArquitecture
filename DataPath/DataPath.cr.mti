@@ -1,0 +1,21 @@
+C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v {1 {vlog -work work -stats=none C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPathTB
+
+Top level modules:
+	DataPathTB
+
+} {} {}} C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v {1 {vlog -work work -stats=none C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Compiling module Controller
+-- Compiling module Alu_Control
+-- Compiling module BancRegister
+-- Compiling module Demuxo
+-- Compiling module MemoryData
+-- Compiling module ALU
+
+Top level modules:
+	DataPath
+
+} {} {}}
