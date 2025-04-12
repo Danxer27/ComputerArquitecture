@@ -36,8 +36,4 @@ module Jericalla_Evolution_TB;
         $stop;
     end
 
-    initial begin
-        $monitor("Time=%0t | instruccion=%b | DS=%h", $time, instruccion, DataOut);
-    end
-
 endmodule
