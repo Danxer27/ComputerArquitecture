@@ -1,34 +1,67 @@
-# Compile of DataPath.v failed with 2 errors.
-# Compile of DataPath.v was successful.
-# Compile of DPTB.v was successful.
 vsim work.DataPathTB
 # vsim work.DataPathTB 
-# Start time: 23:11:17 on Apr 11,2025
+# Start time: 19:08:40 on Apr 30,2025
 # Loading work.DataPathTB
-# ** Error: (vsim-3033) Instantiation of 'FetchCicle' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v Line: 9
-#         Searched libraries:
-#             C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/work
-# Error loading design
-# End time: 23:11:18 on Apr 11,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 10
-# Compile of DPTB.v was successful.
-vsim work.Demuxo
-# vsim work.Demuxo 
-# Start time: 23:11:40 on Apr 11,2025
+# Loading work.DataPath
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
 # Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(81).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Control File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 16
+add wave -position end  sim:/DataPathTB/instruccion
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+add wave -position end  sim:/DataPathTB/DP/Control/ALU_op
+add wave -position end  sim:/DataPathTB/DP/AluController/funct
+add wave -position end  sim:/DataPathTB/DP/AluController/ALUop
+add wave -position end  sim:/DataPathTB/DP/AluController/sel
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
 run -all
-add wave -position end  sim:/Demuxo/dmx
-add wave -position end  sim:/Demuxo/dataAluIn
-add wave -position end  sim:/Demuxo/dataMemIn
-add wave -position end  sim:/Demuxo/dataOut
-run -all
-run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 40
+# Compile of DataPath.v was successful.
 vsim work.DataPathTB
-# End time: 23:12:17 on Apr 11,2025, Elapsed time: 0:00:37
+# End time: 19:12:52 on Apr 30,2025, Elapsed time: 0:04:12
+# Errors: 0, Warnings: 3
+# vsim work.DataPathTB 
+# Start time: 19:12:52 on Apr 30,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(81).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Control File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 16
+add wave -position end  sim:/DataPathTB/instruccion
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+add wave -position end  sim:/DataPathTB/DP/Control/ALU_op
+add wave -position end  sim:/DataPathTB/DP/AluController/funct
+add wave -position end  sim:/DataPathTB/DP/AluController/ALUop
+add wave -position end  sim:/DataPathTB/DP/AluController/sel
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 40
+vsim work.DataPathTB
+# End time: 19:14:16 on Apr 30,2025, Elapsed time: 0:01:24
 # Errors: 0, Warnings: 2
 # vsim work.DataPathTB 
-# Start time: 23:12:17 on Apr 11,2025
+# Start time: 19:14:17 on Apr 30,2025
 # Loading work.DataPathTB
 # Loading work.DataPath
 # Loading work.Controller
@@ -37,66 +70,128 @@ vsim work.DataPathTB
 # Loading work.ALU
 # Loading work.MemoryData
 # Loading work.Demuxo
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (4) for port 'ALUop'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(134).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/AluController File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 26
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(218).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Alulu File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(81).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Control File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 16
 add wave -position end  sim:/DataPathTB/instruccion
 add wave -position end  sim:/DataPathTB/Clk
 add wave -position end  sim:/DataPathTB/dataOut
+add wave -position end  sim:/DataPathTB/DP/AluController/funct
+add wave -position end  sim:/DataPathTB/DP/AluController/ALUop
+add wave -position end  sim:/DataPathTB/DP/AluController/sel
+add wave -position end  sim:/DataPathTB/DP/Control/ALU_op
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
 run -all
-# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(23)
-#    Time: 80 ns  Iteration: 0  Instance: /DataPathTB
-# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 23
-# Compile of DPTB.v was successful.
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 40
+# Compile of DataPath.v was successful.
 vsim work.DataPathTB
-# End time: 23:20:54 on Apr 11,2025, Elapsed time: 0:08:37
-# Errors: 0, Warnings: 4
-# vsim work.DataPathTB 
-# Start time: 23:20:54 on Apr 11,2025
-# Loading work.DataPathTB
-# Loading work.DataPath
-# Loading work.Controller
-# Loading work.Alu_Control
-# Loading work.BancRegister
-# Loading work.ALU
-# Loading work.MemoryData
-# Loading work.Demuxo
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (4) for port 'ALUop'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(134).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/AluController File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 26
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(218).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Alulu File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 44
-add wave -position end  sim:/DataPathTB/instruccion
-add wave -position end  sim:/DataPathTB/Clk
-add wave -position end  sim:/DataPathTB/dataOut
-run -all
-# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(26)
-#    Time: 80 ns  Iteration: 0  Instance: /DataPathTB
-# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 26
-# Compile of DPTB.v was successful.
-vsim work.DataPathTB
-# End time: 23:23:34 on Apr 11,2025, Elapsed time: 0:02:40
-# Errors: 0, Warnings: 4
-# vsim work.DataPathTB 
-# Start time: 23:23:34 on Apr 11,2025
-# Loading work.DataPathTB
-# Loading work.DataPath
-# Loading work.Controller
-# Loading work.Alu_Control
-# Loading work.BancRegister
-# Loading work.ALU
-# Loading work.MemoryData
-# Loading work.Demuxo
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (4) for port 'ALUop'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(134).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/AluController File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 26
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'ALU_op'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v(218).
-#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Alulu File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v Line: 44
-add wave -position end  sim:/DataPathTB/instruccion
-add wave -position end  sim:/DataPathTB/Clk
-add wave -position end  sim:/DataPathTB/dataOut
-run -all
-# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(26)
-#    Time: 80 ns  Iteration: 0  Instance: /DataPathTB
-# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 26
-# End time: 23:41:13 on Apr 11,2025, Elapsed time: 0:17:39
+# End time: 19:15:08 on Apr 30,2025, Elapsed time: 0:00:51
 # Errors: 0, Warnings: 3
+# vsim work.DataPathTB 
+# Start time: 19:15:08 on Apr 30,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/instruccion
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+add wave -position end  sim:/DataPathTB/DP/Control/ALU_op
+add wave -position end  sim:/DataPathTB/DP/AluController/funct
+add wave -position end  sim:/DataPathTB/DP/AluController/ALUop
+add wave -position end  sim:/DataPathTB/DP/AluController/sel
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 40
+add wave -position end  sim:/DataPathTB/DP/Banco/RA1
+add wave -position end  sim:/DataPathTB/DP/Banco/RA2
+add wave -position end  sim:/DataPathTB/DP/Banco/WA
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Banco/WE
+add wave -position end  sim:/DataPathTB/DP/Banco/data1Out
+add wave -position end  sim:/DataPathTB/DP/Banco/data2Out
+add wave -position end  sim:/DataPathTB/DP/Banco/mem
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v(40)
+#    Time: 220 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DPTB.v line 40
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end  sim:/DataPathTB/DP/Banco/WA
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Banco/WE
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of DataPath.v was successful.
+vsim work.DataPathTB
+# End time: 19:21:02 on Apr 30,2025, Elapsed time: 0:05:54
+# Errors: 0, Warnings: 2
+# vsim work.DataPathTB 
+# Start time: 19:21:02 on Apr 30,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/instruccion
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 60 ns ###############
+#   Active process: /DataPathTB/DP/Banco/#IMPLICIT-WIRE(data1Out)#33 @ sub-iteration 0
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v:33
+#   Active process: /DataPathTB/DP/Alulu/#IMPLICIT-WIRE(R)#44 @ sub-iteration 1
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v:44
+#   Active process: /DataPathTB/DP/Demux/#IMPLICIT-WIRE(dataOut)#62 @ sub-iteration 2
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v:62
+#   Active process: /DataPathTB/DP/Banco/#IMPLICIT-WIRE(data1Out)#33 @ sub-iteration 3
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/DataPath/DataPath.v:33
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+add wave -position end  sim:/DataPathTB/DP/Control/ALU_op
+add wave -position end  sim:/DataPathTB/DP/AluController/funct
+add wave -position end  sim:/DataPathTB/DP/AluController/ALUop
+add wave -position end  sim:/DataPathTB/DP/AluController/sel
+add wave -position end  sim:/DataPathTB/DP/Banco/RA1
+add wave -position end  sim:/DataPathTB/DP/Banco/RA2
+add wave -position end  sim:/DataPathTB/DP/Banco/WA
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Banco/WE
+add wave -position end  sim:/DataPathTB/DP/Banco/data1Out
+add wave -position end  sim:/DataPathTB/DP/Banco/data2Out
+add wave -position end  sim:/DataPathTB/DP/Banco/mem
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.

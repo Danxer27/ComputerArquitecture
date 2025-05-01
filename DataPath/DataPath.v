@@ -8,9 +8,9 @@ module DataPath(
 );
 
 wire cDemux, cWe, cRe, cZf, cBRWe;
-wire [3:0] cALU_op;
+wire [2:0] cALU_op;
 wire cData_Out;
-wire [2:0] C4_Sel;
+wire [3:0] C4_Sel;
 wire [31:0] C1_RD1, C2_RD2, C3_AluRes, cDW, CS;
 
 Controller Control(//Inputs
@@ -44,7 +44,7 @@ BancRegister Banco( //Inputs
 ALU Alulu(
     .A(C2_RD2),
     .B(C1_RD1),
-    .ALU_op(C4_Sel),
+    .ALU_OP(C4_Sel),
     //Ouputs 
     .R(C3_AluRes),
     .Zero_Flag(cZf)
@@ -78,51 +78,19 @@ endmodule
 module Controller(
     input [5:0] Op,
     output reg Demuxo, WeMD, ReMD, BRWe,
-    output reg [3:0] ALU_op
+    output reg [2:0] ALU_op
 );
 
 always @(*) begin
     case (Op)
-        6'b100000: begin       
-            ALU_op = 4'b0010;
-            Demuxo = 1'b0;
+        6'b000000: begin       
+            ALU_op = 3'b010;
+            Demuxo = 1'b1;
             BRWe = 1'b1;   
             WeMD = 1'b0;   
             ReMD = 1'b0;
         end
-
-        6'b100010: begin       
-            ALU_op = 4'b0110;
-            Demuxo = 1'b0;
-            BRWe = 1'b1;   
-            WeMD = 1'b0;   
-            ReMD = 1'b0;
-        end
-
-        6'b100100: begin       
-            ALU_op = 4'b0000;
-            Demuxo = 1'b0;
-            BRWe = 1'b1;   
-            WeMD = 1'b0;   
-            ReMD = 1'b0;
-        end
-
-        6'b100101: begin       
-            ALU_op = 4'b0001;
-            Demuxo = 1'b0;
-            BRWe = 1'b1;   
-            WeMD = 1'b0;   
-            ReMD = 1'b0;
-        end
-
-        6'b101010: begin       
-            ALU_op = 4'b0111;
-            Demuxo = 1'b0;
-            BRWe = 1'b1;   
-            WeMD = 1'b0;   
-            ReMD = 1'b0;
-        end
-
+        
         //Aqui van tipo I y J cuando se necesitan
     endcase
 end
@@ -131,23 +99,23 @@ endmodule
 //### ALU CONTROL
 module Alu_Control(
     input [5:0] funct,
-    input [1:0] ALUop,
-    output reg [2:0] sel
+    input [2:0] ALUop,
+    output reg [3:0] sel
 );
 
 always @(*) begin
     case (ALUop)
-        2'b00:
+        3'b000:
             sel = 4'b0010;
-        2'b01:
+        3'b001:
             sel = 4'b0110;
-        2'b10:
-            case (funct)
-            5'b10000: sel = 4'b0010;
-            5'b10010: sel = 4'b0110;
-            5'b10100: sel = 4'b0000;
-            5'b10101: sel = 4'b0001;
-            5'b10101: sel = 4'b0111;
+        3'b010:
+            case (funct) 
+            6'b100000: sel = 4'b0010;
+            6'b100010: sel = 4'b0110;
+            6'b101000: sel = 4'b0000;
+            6'b100101: sel = 4'b0001;
+            6'b101010: sel = 4'b0111;
             endcase
     endcase
 end
@@ -215,13 +183,13 @@ endmodule
 module ALU (
     input [31:0] A,
     input [31:0] B,
-    input [3:0] ALU_op,
+    input [3:0] ALU_OP,
     output reg [31:0] R,
     output reg Zero_Flag
 );
 
 always @(*) begin
-    case (ALU_op)
+    case (ALU_OP)
         4'b0000: R = A & B;        
         4'b0001: R = A | B;        
         4'b0010: R = A + B;       
