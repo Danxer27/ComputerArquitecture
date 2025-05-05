@@ -51,7 +51,7 @@ module Memory(
 reg [7:0] mem [0:1023];
 
 initial begin
-    $readmemb("data", mem);
+    $readmemb("insmem", mem);
 end
 
 always @ (*) begin

@@ -1,0 +1,443 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAddAR
+Z0 !s110 1746416312
+!i10b 1
+!s100 Hk_dJT>SOi<LiO5Xlc5:o1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie1Fh@9?_:Fc2hOeRfj^DI0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1
+Z4 w1746416297
+Z5 8C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v
+Z6 FC:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v
+!i122 33
+L0 392 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1746416312.000000
+!s107 C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@add@a@r
+vALU
+R0
+!i10b 1
+!s100 S05Oa;ENY?UQ4]KkSUoz<0
+R1
+IHnCok:<2?II[AiWQndfoZ3
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 284 23
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v|
+R9
+!i113 1
+R10
+R11
+n@a@l@u
+vAlu_Control
+R0
+!i10b 1
+!s100 bQ<SL>4GkiTjB;JeR2BLE1
+R1
+I1SQPdQ?D0c`]Zd8NVA:M<0
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 173 23
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@alu_@control
+vAlud
+R0
+!i10b 1
+!s100 FcZSeV6Q3g?71MAMj8DmX0
+R1
+ILWejRi4fh3NAGA?Mj?jTk0
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 342 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@alud
+vAndBr
+R0
+!i10b 1
+!s100 H^3JT3T>e?GUz41LZACRL2
+R1
+IMaU2V[@g6YDh_j`km1=Vl1
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 402 13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@and@br
+vBancRegister
+R0
+!i10b 1
+!s100 cPl[B0_00knD=bO[k9Y^=0
+R1
+I2Z8?^LC9Io`_QOdcF1V]B2
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 198 21
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@banc@register
+vController
+R0
+!i10b 1
+!s100 2oh:>IS<3dSlFJHYNFQYM0
+R1
+IdNJJY:iFYn<U7hZQi=Yf_0
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 129 42
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@controller
+vDataPath
+R0
+!i10b 1
+!s100 P4c0TJo[2gT`Ucf6NNX2U0
+R1
+IE7_H4?Uo?>D]6=j3OcaPd1
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 4 123
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@data@path
+vDataPathTB
+!s110 1746415717
+!i10b 1
+!s100 eJV<@CW`zn8^2AhKlDSne2
+R1
+I6B>z_S>0Y9Gh@NLzkQSHn3
+R2
+R3
+w1746413369
+8C:\Users\joel_\Documents\GitHub\ComputerArquitecture\FInalFase1\DPTB.v
+FC:\Users\joel_\Documents\GitHub\ComputerArquitecture\FInalFase1\DPTB.v
+!i122 31
+L0 3 18
+R7
+r1
+!s85 0
+31
+!s108 1746415717.000000
+!s107 C:\Users\joel_\Documents\GitHub\ComputerArquitecture\FInalFase1\DPTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\joel_\Documents\GitHub\ComputerArquitecture\FInalFase1\DPTB.v|
+!i113 1
+R10
+R11
+n@data@path@t@b
+vDemuxo
+R0
+!i10b 1
+!s100 m2O9[FaP5j>512cV20?4?0
+R1
+IjhgI[8WHBF9G7@b^l;gHO2
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 249 13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@demuxo
+vFetchCicle
+R0
+!i10b 1
+!s100 e_NT[MkLYAi13inXPY4[o1
+R1
+IUY8AO57G76RQ`ecj6ZoY22
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 311 14
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@fetch@cicle
+vMemory
+R0
+!i10b 1
+!s100 R4Dcb02VG?g:49MQB;B552
+R1
+I7aF0d0UzC7bUW3YY6H88<0
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 353 15
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@memory
+vMemoryData
+R0
+!i10b 1
+!s100 gD:EhZ2NK=R1z]<ajC>161
+R1
+IFUTV4;VICiiX<?hG;ieP;2
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 264 18
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@memory@data
+vMux
+R0
+!i10b 1
+!s100 nM0`lIhWgL]fF3@c@mj7F3
+R1
+I]l;j]OUh9OhmaOiSRaCQm0
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 220 13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@mux
+vMuxBanc
+R0
+!i10b 1
+!s100 6olhRV7Of<GXA]8dBOnmA1
+R1
+I<9=9kP?L:JPLMKfnR:z>V1
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 234 13
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@mux@banc
+vPC
+R0
+!i10b 1
+!s100 9V0Qo^0aYT;DK4Mz`6ZY:3
+R1
+IQ8n<9[Oe`;R^1BMc8IkDb3
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 328 12
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@p@c
+vShifLeft
+R0
+!i10b 1
+!s100 V1ZYkLU5D1NLiK<ISMnMV2
+R1
+I^F=bVIODS5ghXR3z?86L62
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 381 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@shif@left
+vSignExtend
+R0
+!i10b 1
+!s100 :2Hm^WMc<24ZYIdPR1;bm2
+R1
+I`TieP]F5NQTn4<<fcWbm@1
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 370 9
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@sign@extend

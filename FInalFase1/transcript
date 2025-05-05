@@ -1,0 +1,269 @@
+# Compile of DataPath.v failed with 2 errors.
+# Compile of DPTB.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of DataPath.v failed with 8 errors.
+# Compile of DataPath.v failed with 2 errors.
+# Compile of DataPath.v failed with 2 errors.
+# Compile of DataPath.v failed with 1 errors.
+# Compile of DataPath.v was successful with warnings.
+# Compile of DPTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.DataPathTB
+# vsim work.DataPathTB 
+# Start time: 20:42:46 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Error (suppressible): (vsim-3389) Port 'instruction' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v Line: 9
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data1In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data2In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'dataOut'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(223).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# Error loading design
+# End time: 20:42:47 on May 04,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 14
+# Compile of DPTB.v was successful.
+vsim work.DataPathTB
+# vsim work.DataPathTB 
+# Start time: 20:51:26 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data1In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data2In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'dataOut'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(223).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Warning: (vsim-PLI-3406) Too many digits (10) in data on line 16 of file "data". (Max is 8.)    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(347)
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/mem
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data1In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data2In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'dataOut'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(223).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+vsim work.DataPathTB
+# End time: 21:22:05 on May 04,2025, Elapsed time: 0:30:39
+# Errors: 0, Warnings: 5
+# vsim work.DataPathTB 
+# Start time: 21:22:05 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data1In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data2In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'dataOut'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(223).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+vsim work.Demuxo
+# End time: 21:23:09 on May 04,2025, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 5
+# vsim work.Demuxo 
+# Start time: 21:23:10 on May 04,2025
+# Loading work.Demuxo
+vsim work.DataPathTB
+# End time: 21:23:21 on May 04,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 1
+# vsim work.DataPathTB 
+# Start time: 21:23:21 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data1In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data2In'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(222).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'dataOut'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(223).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/BancMux File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 77
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+# Compile of DPTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.DataPathTB
+# End time: 21:28:40 on May 04,2025, Elapsed time: 0:05:19
+# Errors: 0, Warnings: 5
+# vsim work.DataPathTB 
+# Start time: 21:28:40 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+vsim work.DataPathTB
+# End time: 21:36:06 on May 04,2025, Elapsed time: 0:07:26
+# Errors: 0, Warnings: 2
+# vsim work.DataPathTB 
+# Start time: 21:36:06 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+vsim work.DataPathTB
+# End time: 21:38:35 on May 04,2025, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 2
+# vsim work.DataPathTB 
+# Start time: 21:38:35 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+add wave -position end  sim:/DataPathTB/DP/Banco/RA1
+add wave -position end  sim:/DataPathTB/DP/Banco/RA2
+add wave -position end  sim:/DataPathTB/DP/Banco/WA
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Banco/WE
+add wave -position end  sim:/DataPathTB/DP/Banco/data1Out
+add wave -position end  sim:/DataPathTB/DP/Banco/data2Out
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+add wave -position end  sim:/DataPathTB/DP/Alulu/Zero_Flag
+add wave -position end  sim:/DataPathTB/DP/Demux/dmx
+add wave -position end  sim:/DataPathTB/DP/Demux/dataAluIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataMemIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataOut
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
+#    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17

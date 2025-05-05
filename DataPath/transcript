@@ -195,3 +195,5 @@ run -all
 # 
 # 
 # ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 60 ns.
+# End time: 11:24:30 on May 01,2025, Elapsed time: 16:03:28
+# Errors: 1, Warnings: 1
