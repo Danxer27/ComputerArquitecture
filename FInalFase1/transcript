@@ -267,3 +267,187 @@ run -all
 # ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(17)
 #    Time: 200 ns  Iteration: 0  Instance: /DataPathTB
 # Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 17
+# Compile of DataPath.v was successful with warnings.
+# Compile of DPTB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.DataPathTB
+# End time: 23:02:18 on May 04,2025, Elapsed time: 1:23:43
+# Errors: 0, Warnings: 2
+# vsim work.DataPathTB 
+# Start time: 23:02:18 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+add wave -position end  sim:/DataPathTB/DP/pc/clk
+add wave -position end  sim:/DataPathTB/DP/pc/dirIn
+add wave -position end  sim:/DataPathTB/DP/pc/dirOut
+add wave -position end  sim:/DataPathTB/DP/ALuAdd/addIn1
+add wave -position end  sim:/DataPathTB/DP/ALuAdd/addIn2
+add wave -position end  sim:/DataPathTB/DP/ALuAdd/addOut
+add wave -position end  sim:/DataPathTB/DP/BancMux/dmx
+add wave -position end  sim:/DataPathTB/DP/BancMux/data1In
+add wave -position end  sim:/DataPathTB/DP/BancMux/data2In
+add wave -position end  sim:/DataPathTB/DP/BancMux/dataOut
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+add wave -position end  sim:/DataPathTB/DP/Alulu/Zero_Flag
+add wave -position end  sim:/DataPathTB/DP/Demux/dmx
+add wave -position end  sim:/DataPathTB/DP/Demux/dataAluIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataMemIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(32)
+#    Time: 320 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 32
+# Compile of DataPath.v failed with 1 errors.
+# Compile of DataPath.v failed with 1 errors.
+# Compile of DataPath.v was successful.
+vsim work.DataPathTB
+# End time: 23:28:33 on May 04,2025, Elapsed time: 0:26:15
+# Errors: 0, Warnings: 4
+# vsim work.DataPathTB 
+# Start time: 23:28:33 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(286).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Alulu File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 96
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(287).
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Alulu File: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v Line: 96
+# Compile of DataPath.v was successful.
+vsim work.DataPathTB
+# End time: 23:29:31 on May 04,2025, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 4
+# vsim work.DataPathTB 
+# Start time: 23:29:31 on May 04,2025
+# Loading work.DataPathTB
+# Loading work.DataPath
+# Loading work.PC
+# Loading work.Alud
+# Loading work.Memory
+# Loading work.SignExtend
+# Loading work.AddAR
+# Loading work.Mux
+# Loading work.AndBr
+# Loading work.Controller
+# Loading work.Alu_Control
+# Loading work.MuxBanc
+# Loading work.BancRegister
+# Loading work.ALU
+# Loading work.MemoryData
+# Loading work.Demuxo
+add wave -position end  sim:/DataPathTB/Clk
+add wave -position end  sim:/DataPathTB/dataOut
+run -all
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(32)
+#    Time: 320 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 32
+add wave -position end  sim:/DataPathTB/DP/Alulu/A
+add wave -position end  sim:/DataPathTB/DP/Alulu/B
+add wave -position end  sim:/DataPathTB/DP/Alulu/ALU_OP
+add wave -position end  sim:/DataPathTB/DP/Alulu/R
+add wave -position end  sim:/DataPathTB/DP/Alulu/Zero_Flag
+add wave -position end  sim:/DataPathTB/DP/Demux/dmx
+add wave -position end  sim:/DataPathTB/DP/Demux/dataAluIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataMemIn
+add wave -position end  sim:/DataPathTB/DP/Demux/dataOut
+add wave -position end  sim:/DataPathTB/DP/Banco/RA1
+add wave -position end  sim:/DataPathTB/DP/Banco/RA2
+add wave -position end  sim:/DataPathTB/DP/Banco/WA
+add wave -position end  sim:/DataPathTB/DP/Banco/DW
+add wave -position end  sim:/DataPathTB/DP/Banco/WE
+add wave -position end  sim:/DataPathTB/DP/Banco/data1Out
+add wave -position end  sim:/DataPathTB/DP/Banco/data2Out
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(32)
+#    Time: 320 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 32
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v(32)
+#    Time: 320 ns  Iteration: 0  Instance: /DataPathTB
+# Break in Module DataPathTB at C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DPTB.v line 32
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '5' in data on line 2 of file "data".    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(209)
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Banco
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 5 ns ###############
+#   Active process: /DataPathTB/DP/Banco/#IMPLICIT-WIRE(data2Out)#85 @ sub-iteration 0
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:85
+#   Active process: /DataPathTB/DP/Banco/#IMPLICIT-WIRE(data1Out)#85 @ sub-iteration 0
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:85
+#   Active process: /DataPathTB/DP/Alulu/#IMPLICIT-WIRE(Zero_Flag)#96 @ sub-iteration 0
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:96
+#   Active process: /DataPathTB/DP/Alulu/#IMPLICIT-WIRE(R)#96 @ sub-iteration 0
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:96
+#   Active process: /DataPathTB/DP/Alulu/#IMPLICIT-WIRE(Zero_Flag)#96 @ sub-iteration 1
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:96
+#   Active process: /DataPathTB/DP/Alulu/#IMPLICIT-WIRE(R)#96 @ sub-iteration 1
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:96
+#   Active process: /DataPathTB/DP/Demux/#IMPLICIT-WIRE(dataOut)#114 @ sub-iteration 1
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:114
+#   Active process: /DataPathTB/DP/Demux/#IMPLICIT-WIRE(dataOut)#114 @ sub-iteration 2
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:114
+#   Active process: /DataPathTB/DP/Banco/#IMPLICIT-WIRE(data2Out)#85 @ sub-iteration 2
+#     Source: C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v:85
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: (vsim-PLI-3409) Illegal binary digit '5' in data on line 2 of file "data".    : C:/Users/joel_/Documents/GitHub/ComputerArquitecture/FInalFase1/DataPath.v(209)
+#    Time: 0 ps  Iteration: 0  Instance: /DataPathTB/DP/Banco
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 65 ns.
+# End time: 23:52:15 on May 04,2025, Elapsed time: 0:22:44
+# Errors: 1, Warnings: 1

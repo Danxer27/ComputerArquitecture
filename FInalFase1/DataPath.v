@@ -22,7 +22,7 @@ wire [4:0] BancMuxOut;
 
 //Instancias
 
-PC pc(.clk(CLK), .dirIn(cAddPc), .dirOut(instruction));
+PC pc(.clk(CLK), .dirIn(cAddPc), .dirOut(pcOut));
 Alud sum(.dir(pcOut), .dirOut(sumOut));
 Memory mem(.dir(pcOut), .instructionOut(instruction));
 
@@ -94,8 +94,8 @@ BancRegister Banco( //Inputs
 );
 
 ALU Alulu(
-    .A(C2_RD2),
-    .B(C1_RD1),
+    .A(C1_RD1),
+    .B(C2_RD2),
     .ALU_OP(C4_Sel),
     //Ouputs 
     .R(C3_AluRes),
@@ -122,6 +122,7 @@ Demuxo Demux(
 // always @(posedge CLK) begin
 //     DS <= cData_Out;
 // end
+assign DS = cDW;
 
 endmodule
 
@@ -140,7 +141,7 @@ always @(*) begin
             BRWe = 1'b1;   
             WeMD = 1'b0;   
             ReMD = 1'b0;
-            regDst = 1'b0;
+            regDst = 1'b1;
             Branch = 1'b0;
         end
 
@@ -208,7 +209,7 @@ initial begin
     $readmemb("data", mem);
 end
 
-always @ * begin
+always @ (*) begin
     if(WE) begin
         mem[WA] = DW;
     end
@@ -308,22 +309,6 @@ endmodule
 // ########################
 // FETCH CICLE MODULES #######################
 
-module FetchCicle(
-    input [31:0] instruction,
-    input CLK,
-    output [31:0] insOut
-);
-
-wire clock;
-wire [31:0] pcIn, pcOut, sumOut;
-
-PC pc(.clk(CLK), .dirIn(sumOut), .dirOut(pcOut));
-Alud sum(.dir(pcOut), .dirOut(sumOut));
-Memory mem(.dir(pcOut), .instructionOut(insOut));
-
-endmodule
-
-
 //Direccionaor
 module PC (
     input clk,
@@ -373,7 +358,7 @@ module SignExtend (
 );
 
 always @ (*) begin
-    signOut = {signIn, 0000000000000000};
+    signOut = {{16{signIn[15]}}, signIn};
 end
 endmodule
 
